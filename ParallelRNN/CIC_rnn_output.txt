@@ -1,0 +1,93 @@
+Skipped line 1: , Destination Port, Flow Duration, Total Fwd Packets, Total Backward Packets,Total Length of Fwd Packets, Total Length of Bwd Packets, Fwd Packet Length Max, Fwd Packet Length Min, Fwd Packet Length Mean, Fwd Packet Length Std,Bwd Packet Length Max, Bwd Packet Length Min, Bwd Packet Length Mean, Bwd Packet Length Std,Flow Bytes/s, Flow Packets/s, Flow IAT Mean, Flow IAT Std, Flow IAT Max, Flow IAT Min,Fwd IAT Total, Fwd IAT Mean, Fwd IAT Std, Fwd IAT Max, Fwd IAT Min,Bwd IAT Total, Bwd IAT Mean, Bwd IAT Std, Bwd IAT Max, Bwd IAT Min,Fwd PSH Flags, Bwd PSH Flags, Fwd URG Flags, Bwd URG Flags, Fwd Header Length, Bwd Header Length,Fwd Packets/s, Bwd Packets/s, Min Packet Length, Max Packet Length, Packet Length Mean, Packet Length Std, Packet Length Variance,FIN Flag Count, SYN Flag Count, RST Flag Count, PSH Flag Count, ACK Flag Count, URG Flag Count, CWE Flag Count, ECE Flag Count, Down/Up Ratio, Average Packet Size, Avg Fwd Segment Size, Avg Bwd Segment Size, Fwd Header Length.1,Fwd Avg Bytes/Bulk, Fwd Avg Packets/Bulk, Fwd Avg Bulk Rate, Bwd Avg Bytes/Bulk, Bwd Avg Packets/Bulk,Bwd Avg Bulk Rate,Subflow Fwd Packets, Subflow Fwd Bytes, Subflow Bwd Packets, Subflow Bwd Bytes,Init_Win_bytes_forward, Init_Win_bytes_backward, act_data_pkt_fwd, min_seg_size_forward,Active Mean, Active Std, Active Max, Active Min,Idle Mean, Idle Std, Idle Max, Idle Min, Label
+Skipped line 35: 33,1029,0,2,0,12,0,6,6,6.0,0.0,0,0,0.0,0.0,inf,inf,0.0,0.0,0,0,0,0.0,0.0,0,0,0,0.0,0.0,0,0,0,0,0,0,40,0,0.0,0.0,6,6,6.0,0.0,0.0,0,0,0,0,1,0,0,0,0,9.0,6.0,0.0,40,0,0,0,0,0,0,2,12,0,0,2053,-1,1,20,0.0,0.0,0,0,0.0,0.0,0,0,BENIGN
+Skipped line 79: 77,49478,0,2,0,37,0,31,6,18.5,17.6776695297,0,0,0.0,0.0,inf,inf,0.0,0.0,0,0,0,0.0,0.0,0,0,0,0.0,0.0,0,0,1,0,0,0,40,0,0.0,0.0,6,31,22.6666666667,14.4337567297,208.3333333333,0,1,0,0,1,0,0,0,0,34.0,18.5,0.0,40,0,0,0,0,0,0,2,37,0,0,1013,-1,1,20,0.0,0.0,0,0,0.0,0.0,0,0,BENIGN
+Skipped line 82: 80,49478,0,2,0,37,0,31,6,18.5,17.6776695297,0,0,0.0,0.0,inf,inf,0.0,0.0,0,0,0,0.0,0.0,0,0,0,0.0,0.0,0,0,1,0,0,0,40,0,0.0,0.0,6,31,22.6666666667,14.4337567297,208.3333333333,0,1,0,0,1,0,0,0,0,34.0,18.5,0.0,40,0,0,0,0,0,0,2,37,0,0,1013,-1,1,20,0.0,0.0,0,0,0.0,0.0,0,0,BENIGN
+Skipped line 94: 92,49488,0,2,0,12,0,6,6,6.0,0.0,0,0,0.0,0.0,inf,inf,0.0,0.0,0,0,0,0.0,0.0,0,0,0,0.0,0.0,0,0,0,0,0,0,40,0,0.0,0.0,6,6,6.0,0.0,0.0,0,0,0,0,1,1,0,0,0,9.0,6.0,0.0,40,0,0,0,0,0,0,2,12,0,0,913,-1,1,20,0.0,0.0,0,0,0.0,0.0,0,0,BENIGN
+Total raw lines read: 2830744
+Valid rows loaded: 2827876
+Built sequences: 2827869
+Skipped lines: 2868
+Output log file: CIC_rnn_output.txt
+OpenMP max threads: 4
+Train sequences: 2262295
+Test sequences: 565574
+Sequence length: 8
+Batch size: 16
+Input size: 78
+Train class counts -> neg: 1817000 pos: 445295 | pos_weight: 4.0804
+
+Epoch 1 TRAIN complete | Samples 2262295 | Avg Loss 0.156847 | Accuracy 97.09%
+Epoch 1 TEST complete | Samples 565574 | Avg Loss 0.077212 | Accuracy 97.66% | Precision 0.9135 | Recall 0.9735 | F1 0.9425 | Elapsed 706.00 sec
+Confusion Matrix (TEST):
+         Pred 0   Pred 1
+True 0   444052    10261
+True 1     2949   108312
+
+Epoch 2 TRAIN complete | Samples 2262295 | Avg Loss 0.101473 | Accuracy 98.01%
+Epoch 2 TEST complete | Samples 565574 | Avg Loss 0.063535 | Accuracy 98.01% | Precision 0.9238 | Recall 0.9795 | F1 0.9508 | Elapsed 1070.00 sec
+Confusion Matrix (TEST):
+         Pred 0   Pred 1
+True 0   445317     8996
+True 1     2276   108985
+
+Epoch 3 TRAIN complete | Samples 2262295 | Avg Loss 0.085015 | Accuracy 98.23%
+Epoch 3 TEST complete | Samples 565574 | Avg Loss 0.053752 | Accuracy 98.18% | Precision 0.9293 | Recall 0.9821 | F1 0.9549 | Elapsed 1443.00 sec
+Confusion Matrix (TEST):
+         Pred 0   Pred 1
+True 0   445995     8318
+True 1     1994   109267
+
+Epoch 4 TRAIN complete | Samples 2262295 | Avg Loss 0.074036 | Accuracy 98.44%
+Epoch 4 TEST complete | Samples 565574 | Avg Loss 0.047782 | Accuracy 98.37% | Precision 0.9366 | Recall 0.9840 | F1 0.9597 | Elapsed 1808.00 sec
+Confusion Matrix (TEST):
+         Pred 0   Pred 1
+True 0   446896     7417
+True 1     1776   109485
+
+Epoch 5 TRAIN complete | Samples 2262295 | Avg Loss 0.066897 | Accuracy 98.60%
+Epoch 5 TEST complete | Samples 565574 | Avg Loss 0.044486 | Accuracy 98.51% | Precision 0.9409 | Recall 0.9860 | F1 0.9629 | Elapsed 2178.00 sec
+Confusion Matrix (TEST):
+         Pred 0   Pred 1
+True 0   447419     6894
+True 1     1560   109701
+
+Epoch 6 TRAIN complete | Samples 2262295 | Avg Loss 0.061686 | Accuracy 98.71%
+Epoch 6 TEST complete | Samples 565574 | Avg Loss 0.042090 | Accuracy 98.58% | Precision 0.9431 | Recall 0.9876 | F1 0.9649 | Elapsed 2523.00 sec
+Confusion Matrix (TEST):
+         Pred 0   Pred 1
+True 0   447686     6627
+True 1     1379   109882
+
+Epoch 7 TRAIN complete | Samples 2262295 | Avg Loss 0.057606 | Accuracy 98.79%
+Epoch 7 TEST complete | Samples 565574 | Avg Loss 0.040206 | Accuracy 98.65% | Precision 0.9453 | Recall 0.9888 | F1 0.9665 | Elapsed 2856.00 sec
+Confusion Matrix (TEST):
+         Pred 0   Pred 1
+True 0   447942     6371
+True 1     1250   110011
+
+Epoch 8 TRAIN complete | Samples 2262295 | Avg Loss 0.054313 | Accuracy 98.85%
+Epoch 8 TEST complete | Samples 565574 | Avg Loss 0.038557 | Accuracy 98.71% | Precision 0.9470 | Recall 0.9897 | F1 0.9679 | Elapsed 3191.00 sec
+Confusion Matrix (TEST):
+         Pred 0   Pred 1
+True 0   448151     6162
+True 1     1142   110119
+
+Epoch 9 TRAIN complete | Samples 2262295 | Avg Loss 0.051565 | Accuracy 98.90%
+Epoch 9 TEST complete | Samples 565574 | Avg Loss 0.037067 | Accuracy 98.76% | Precision 0.9487 | Recall 0.9907 | F1 0.9692 | Elapsed 3506.00 sec
+Confusion Matrix (TEST):
+         Pred 0   Pred 1
+True 0   448348     5965
+True 1     1040   110221
+
+Epoch 10 TRAIN complete | Samples 2262295 | Avg Loss 0.049204 | Accuracy 98.95%
+Epoch 10 TEST complete | Samples 565574 | Avg Loss 0.035773 | Accuracy 98.80% | Precision 0.9498 | Recall 0.9913 | F1 0.9701 | Elapsed 3822.00 sec
+Confusion Matrix (TEST):
+         Pred 0   Pred 1
+True 0   448481     5832
+True 1      965   110296
+
+=====================================
+Program finished.
+Total CPU runtime: 13831.079178 seconds
+Total elapsed wall time: 3822.00 seconds (63.70 minutes)
+=====================================
